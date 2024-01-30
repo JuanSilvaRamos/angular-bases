@@ -1,0 +1,24 @@
+<h2>DBZ - Main Page Component</h2>
+
+<hr>
+
+<div class="row">
+
+  <div class="col">
+
+    <app-dbz-list
+      [characterList]="characters"
+      (onDelete)="deleteCharacterById($event)">
+    </app-dbz-list>
+
+  </div>
+
+  <div class="col">
+
+    <app-dbz-form
+      (onNew)="addCharacter($event)">
+    </app-dbz-form>
+
+  </div>
+
+</div>

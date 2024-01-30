@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { CounterModule } from './counter/counter-module';
 import { HeroesModule } from './heroes/heroes-module';
+import { DbzModule } from './dbz/dbz.module';
 
 // import { CounterComponent } from './counter/counter-component';
 // import { ListComponent } from './heroes/list/list.component';
@@ -23,7 +24,8 @@ import { HeroesModule } from './heroes/heroes-module';
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    CounterModule
+    CounterModule,
+    DbzModule
   ],
   providers: [
     provideClientHydration()
